@@ -12,4 +12,4 @@
 
 - githubでブランチ：lecture02をmainにリネーム
 - リモートリポジトリを  cloud9にクローン
-ブランチlecture0を作成してプッシュする
+- ブランチlecture0を作成してプッシュする
