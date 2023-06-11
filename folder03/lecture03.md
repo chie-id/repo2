@@ -1,6 +1,6 @@
-#　第３回課題:Webアプリケーションを起動する
+# 第３回課題:Webアプリケーションを起動する
 
-##　概要
+## 概要
 ### ●cloud9に『APサーバー』と『DBサーバー』をインストールする
 ### ●サンプルアプリケーション(Roby on Rails)を起動してブラウザで表示させる
 
@@ -48,7 +48,8 @@
 - config.hosts << "542e434945414549915bf29e23ee129a.vfs.cloud9.ap-northeast-1.amazonaws.com"
 
 - 『development.rbファイル』のendの上の行にペーストする→保存する
--  ! [Webアプリケーション起動](https://github.com/chie-id/repo2/blob/014942b123e01e3650d937838be51d794ed3919d/folder03/lecture03_test.png)
+
+ ![Webアプリケーション起動](https://github.com/chie-id/repo2/blob/014942b123e01e3650d937838be51d794ed3919d/folder03/lecture03_test.png)
 
 
 ## 学び
@@ -86,21 +87,24 @@
 ## 確認課題
 ### AP サーバーの名前とバージョンを確認してみましょう。
 
- 
-! [Puma version:5.6.5](https://github.com/chie-id/repo2/blob/014942b123e01e3650d937838be51d794ed3919d/folder03/lecture03_ap.png)
+ ![Puma version:5.6.5](https://github.com/chie-id/repo2/blob/014942b123e01e3650d937838be51d794ed3919d/folder03/lecture03_ap.png)
 
 ### AP サーバーを終了させた場合、引き続きアクセスできますか？結果を確認して、また AP サーバーを起動してください。
 - できない
-- ! [APサーバーを終了](https://github.com/chie-id/repo2/blob/014942b123e01e3650d937838be51d794ed3919d/folder03/ap-stop.png)
 
-- ! [APサーバーを再起動](https://github.com/chie-id/repo2/blob/014942b123e01e3650d937838be51d794ed3919d/folder03/AP-RESTART.png)
+ ![APサーバーを終了](https://github.com/chie-id/repo2/blob/014942b123e01e3650d937838be51d794ed3919d/folder03/ap-stop.png)
+
+ ![APサーバーを再起動](https://github.com/chie-id/repo2/blob/014942b123e01e3650d937838be51d794ed3919d/folder03/AP-RESTART.png)
 
 ### サンプルアプリケーションで使った DB サーバー（DB エンジン）の名前と、今 Cloud9 で動作しているバージョンはいくつか確認してみましょう。
 
-- ! [Mysql:ver8.0.33](https://github.com/chie-id/repo2/blob/014942b123e01e3650d937838be51d794ed3919d/folder03/sql-ver.png)
+ ![Mysql:ver8.0.33](https://github.com/chie-id/repo2/blob/014942b123e01e3650d937838be51d794ed3919d/folder03/sql-ver.png)
+
 ### DB サーバーを終了させた場合、引き続きアクセスできますか？
+
 - できない
-- ! [DBサーバーを終了](https://github.com/chie-id/repo2/blob/014942b123e01e3650d937838be51d794ed3919d/folder03/sql_stop.png)
+
+ ![DBサーバーを終了](https://github.com/chie-id/repo2/blob/014942b123e01e3650d937838be51d794ed3919d/folder03/sql_stop.png)
 
 
 ### Rails の構成管理ツールの名前は何でしたか？
