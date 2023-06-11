@@ -48,6 +48,8 @@
 - config.hosts << "542e434945414549915bf29e23ee129a.vfs.cloud9.ap-northeast-1.amazonaws.com"
 
 - 『development.rbファイル』のendの上の行にペーストする→保存する
+-  ! [Webアプリケーション起動](/recture03/lecture03_ap.png)
+
 
 ## 学び
 ### APサーバー
@@ -81,3 +83,26 @@
 ### yarn/npm
 - nodeのパッケージを管理するためのツール
 
+## 確認課題
+### AP サーバーの名前とバージョンを確認してみましょう。
+
+ 
+! [Puma version:5.6.5](/repo2/recture03/lecture03_ap.png)
+
+### AP サーバーを終了させた場合、引き続きアクセスできますか？結果を確認して、また AP サーバーを起動してください。
+- できない
+- ! [APサーバーを終了](/repo2/recture03/ap-stop.png)
+
+- ! [APサーバーを再起動](/repo2/recture03/AP-RESTART.png)
+
+### サンプルアプリケーションで使った DB サーバー（DB エンジン）の名前と、今 Cloud9 で動作しているバージョンはいくつか確認してみましょう。
+
+- ! [Mysql:ver8.0.33](/repo2/recture03/sql-ver.png)
+### DB サーバーを終了させた場合、引き続きアクセスできますか？
+- できない
+- ! [DBサーバーを終了](/repo2/recture03/sql_stop.png)
+
+
+### Rails の構成管理ツールの名前は何でしたか？
+
+- bundler
