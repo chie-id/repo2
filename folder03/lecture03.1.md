@@ -1,21 +1,21 @@
 # 第３回課題 : Webアプリケーションの起動
 
 ## 概要
-- cloud9に『APサーバー』と『DBサーバー』をインストールする
-- サンプルアプリケーション(Roby on Rails)を起動してブラウザで表示させる
+- Cloud9に『APサーバー』と『DBサーバー』をインストールする
+- サンプルアプリケーション(Ruby on Rails)を起動してブラウザで表示させる
 
 ## 実施項目
- 1.cloud9に課題用の環境を作成する
+ 1.Cloud9に課題用の環境を作成する
  
- 2.GitHub上のサンプルアプリケーションをcloud9にクローンする
+ 2.GitHub上のサンプルアプリケーションをCloud9にクローンする
 - コマンド：git clone "code"
   
- 3.cloud9に『Ruby:ver3.1.2（サンプルアプリケーションでの使用ver）』をインストールする
+ 3.Cloud9に『Ruby:ver3.1.2（サンプルアプリケーションでの使用ver）』をインストールする
 - コマンド：rvm install 3.1.2
 - 補足①：verはライブラリのインストールに関係してくる
 - 補足②：verが古い場合はアップグレードする
 
- 4.cloud9に『MySQL（DBサーバー）』をインストールしてセットアップする
+ 4.Cloud9に『MySQL（DBサーバー）』をインストールしてセットアップする
 - 操作手順は↓を参照する
 　https://github.com/MasatoshiMizumoto/raisetech_documents/blob/main/aws/docs/install_mysql_on_cloud9_amazon_linux_2.md
 
@@ -25,7 +25,7 @@
 - 『database.ymlファイル』にパスワードを記入、ソケットのパスを書き換える（test/development両方とも）
 
  6.『RubyGems』から『bundlerとライブラリ』をインストールする
-- コマンド：bunble install など
+- コマンド：bundle install など
 - 補足：依存関係にあるライブラリが一括でインストールされる
 
  7.『yarn』と『npm』がインストールされているか調べる→『yarn』をインストールする
@@ -39,10 +39,10 @@
 
 - ローカル環境　→　コマンド：bin/dev
 - Cloud9 →　コマンド：bin/cloud9_dev
-- 
+
  10.ブラウザでWebアプリケーションを表示して動作確認をする
 
-- Clod9のメニューバー：Preview→Preview Running Application→Browserを押下
+- Cloud9のメニューバー：Preview→Preview Running Application→Browserを押下
 
  11.RailsのBlocked hostセキュリティを解消する
 - Webアプリケーション上に表示されている↓をコピーする
@@ -61,7 +61,7 @@
 
 ### フレームワーク
 - アプリケーションを開発するための機能がデフォルトで揃っているもの
-- Rubyの場合はRoby on Rails
+- Rubyの場合はRuby on Rails
 
 ### ライブラリ
 - 予め書き込まれたプロクラムの集合体
@@ -73,9 +73,9 @@
 ### 構成管理ツール
 - 言語ごとにコマンドが決められている
 - コマンド実行するとインターネット上のリポリトジからローカルに情報をダウンロードすることができる
--  Rubyの場合はbunbler
+-  Rubyの場合はbundler
 
-### bunbler
+### bundler
 - gemの依存関係とバージョンを管理するためのツール
 - RubyGems（Rubyのパッケージ管理システム）から情報をインストールする
 
